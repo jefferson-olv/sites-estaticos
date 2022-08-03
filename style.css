@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+* {    
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(120, 221, 120);
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#299a0b+32,56fc14+85 */
+    background: rgb(120, 221, 120); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(120, 221, 120) 32%, rgb(1, 84, 26) 85%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgb(120, 221, 120) 32%,rgb(1, 84, 26) 85%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgb(120, 221, 120) 32%,rgb(1, 84, 26) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#299a0b', endColorstr='#56fc14',GradientType=0 ); /* IE6-9 */
+
+
+    color: white;
+}
+
+h1, h2 {
+    padding-left: 20px;
+    font-family: 'open_sansregular';
+}
+
+span {
+    font-weight: bold;
+    color: green;
+}
+
+#h1-principal {
+    font-size: 2em;
+    text-shadow: 1px 1px 3px black;
+}
+
+.titulo-principal {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+.h1-secundario, .h2-secundario {
+    font-family: 'android';
+    color: rgb(1, 84, 26);
+}
+
+
+nav {
+    padding-bottom: 5px;
+}
+
+nav > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    text-shadow: 1px 1px 1px black;
+    transition: .3s ease all;
+}
+
+a:hover {
+    color: green;
+}
+
+main {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    background-color: white;
+}
+
+.h1-secundario {
+    font-size: 2em;
+}
+
+p {
+    padding: 20px;
+}
+
+.imagens, .bugdroid {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+}
+
+.imagens img {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    background-color: green;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    padding: 20px 30px;
+}
+
+aside {
+    margin: 30px;
+}
+
+aside, h3 {
+    border-radius: 10px;
+    background-color: rgb(103, 221, 105);
+}
+
+aside > h3 {
+    background-color: green;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+#lista {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-left: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.rodape {
+    background-color: rgb(2, 51, 2);
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
